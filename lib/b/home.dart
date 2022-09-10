@@ -354,173 +354,235 @@ class home extends StatelessWidget {
                   ),
                 ),
               ),
-              Container(
-                height: 132,
-                width: 343,
-                margin: EdgeInsets.fromLTRB(15, 15, 15, 15),
-                padding: EdgeInsets.fromLTRB(20, 20, 15, 15),
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(20),
-                  color: Color.fromARGB(255, 247, 248, 248),
-                ),
-                child: Column(
-                  children: [
-                    ListTile(
-                      title: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+                child: Container(
+                  margin: EdgeInsets.only(top: 16),
+                  height: 132,
+                  width: 343,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(20),
+                    color: const Color.fromARGB(255, 247, 248, 248),
+                  ),
+                  child: Column(
+                    children: [
+                      Row(
                         children: [
-                          Container(
-                            margin: EdgeInsets.fromLTRB(0, 0, 0, 5),
-                            child: Text(
-                              'Fullbody workout',
-                              overflow: TextOverflow.ellipsis,
-                              style: TextStyle(fontSize: 14),
+                          Expanded(
+                            flex: 3,
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Container(
+                                  margin: const EdgeInsets.fromLTRB(0, 0, 0, 4),
+                                  child: const Text(
+                                    'Fullbody Workout',
+                                    overflow: TextOverflow.ellipsis,
+                                    style: const TextStyle(
+                                        fontSize: 14,
+                                        fontWeight: FontWeight.bold),
+                                  ),
+                                ),
+                                const Text(
+                                  '11 Excresise | 32 minutes',
+                                  overflow: TextOverflow.ellipsis,
+                                  style: TextStyle(
+                                    fontSize: 10,
+                                  ),
+                                ),
+                                Container(
+                                  margin:
+                                      const EdgeInsets.fromLTRB(0, 15, 0, 0),
+                                  child: Align(
+                                    alignment: Alignment.bottomLeft,
+                                    child: ElevatedButton(
+                                      onPressed: () {},
+                                      style: ElevatedButton.styleFrom(
+                                        primary: const Color.fromRGBO(
+                                            0, 221, 163, 1),
+                                      ),
+                                      child: const Text(
+                                        'view more',
+                                        overflow: TextOverflow.ellipsis,
+                                        style: TextStyle(
+                                          fontSize: 12,
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ],
                             ),
                           ),
-                          Container(
-                            margin: EdgeInsets.fromLTRB(0, 0, 0, 8),
-                            child: Text(
-                              '11 Excresise | 32 minutes',
-                              overflow: TextOverflow.ellipsis,
-                              style: TextStyle(
-                                fontSize: 10,
+                          Expanded(
+                            flex: 1,
+                            child: SizedBox(
+                              height: 132,
+                              child: Image.network(
+                                'https://media.istockphoto.com/vectors/cute-young-girl-in-red-shorts-jump-in-rope-vector-id1207731535?k=20&m=1207731535&s=612x612&w=0&h=SO_Ik57gD2A_q8OoTWScZV-6OaV2ldoG6-QMhZh3PF8=',
+                                fit: BoxFit.contain,
                               ),
                             ),
                           ),
                         ],
-                      ),
-                      subtitle: Align(
-                        alignment: Alignment.bottomLeft,
-                        child: ElevatedButton(
-                          onPressed: () {},
-                          style: ElevatedButton.styleFrom(
-                            backgroundColor: Color.fromRGBO(0, 221, 163, 1),
-                          ),
-                          child: Text(
-                            'view more',
-                            overflow: TextOverflow.ellipsis,
-                            style: TextStyle(
-                              fontSize: 12,
-                            ),
-                          ),
-                        ),
-                      ),
-                      trailing: Container(
-                          height: 100, width: 100, color: Colors.black),
-                    ),
-                  ],
+                      )
+                    ],
+                  ),
                 ),
               ),
-              Container(
-                height: 132,
-                width: 343,
-                margin: EdgeInsets.fromLTRB(10, 15, 15, 5),
-                padding: EdgeInsets.fromLTRB(20, 20, 15, 15),
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(20),
-                  color: Color.fromARGB(255, 247, 248, 248),
-                ),
-                child: Column(
-                  children: [
-                    ListTile(
-                      title: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+                child: Container(
+                  margin: EdgeInsets.only(top: 16),
+                  height: 132,
+                  width: 343,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(20),
+                    color: const Color.fromARGB(255, 247, 248, 248),
+                  ),
+                  child: Column(
+                    children: [
+                      Row(
                         children: [
-                          Container(
-                            margin: EdgeInsets.fromLTRB(0, 0, 0, 5),
-                            child: Text(
-                              'Lowerbody workout',
-                              overflow: TextOverflow.ellipsis,
-                              style: TextStyle(
-                                fontSize: 14,
-                              ),
+                          Expanded(
+                            flex: 3,
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Container(
+                                  margin: const EdgeInsets.fromLTRB(0, 0, 0, 4),
+                                  child: const Text(
+                                    'Lowerbody Workout',
+                                    overflow: TextOverflow.ellipsis,
+                                    style: const TextStyle(
+                                        fontSize: 14,
+                                        fontWeight: FontWeight.bold),
+                                  ),
+                                ),
+                                const Text(
+                                  '12 Excresise | 40 minutes',
+                                  overflow: TextOverflow.ellipsis,
+                                  style: TextStyle(
+                                    fontSize: 10,
+                                  ),
+                                ),
+                                Container(
+                                  margin:
+                                      const EdgeInsets.fromLTRB(0, 15, 0, 0),
+                                  child: Align(
+                                    alignment: Alignment.bottomLeft,
+                                    child: ElevatedButton(
+                                      onPressed: () {},
+                                      style: ElevatedButton.styleFrom(
+                                        primary: const Color.fromRGBO(
+                                            0, 221, 163, 1),
+                                      ),
+                                      child: const Text(
+                                        'view more',
+                                        overflow: TextOverflow.ellipsis,
+                                        style: TextStyle(
+                                          fontSize: 12,
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ],
                             ),
                           ),
-                          Container(
-                            margin: EdgeInsets.fromLTRB(0, 0, 0, 8),
-                            child: Text(
-                              '12 Excresise | 40 minutes',
-                              overflow: TextOverflow.ellipsis,
-                              style: TextStyle(
-                                fontSize: 10,
+                          Expanded(
+                            flex: 1,
+                            child: SizedBox(
+                              height: 132,
+                              child: Image.network(
+                                'https://media.istockphoto.com/vectors/fitness-training-in-gym-athletic-woman-running-on-treadmill-young-vector-id1338513375?k=20&m=1338513375&s=612x612&w=0&h=3aaQscOfjX4B5dv_D1lqEOVpG6_WYg6qVmfcpTiol28=',
+                                fit: BoxFit.contain,
                               ),
                             ),
                           ),
                         ],
-                      ),
-                      subtitle: Align(
-                        alignment: Alignment.bottomLeft,
-                        child: ElevatedButton(
-                          onPressed: () {},
-                          style: ElevatedButton.styleFrom(
-                            backgroundColor: Color.fromRGBO(0, 221, 163, 1),
-                          ),
-                          child: Text(
-                            'view more',
-                            overflow: TextOverflow.ellipsis,
-                            style: TextStyle(
-                              fontSize: 12,
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
-                  ],
+                      )
+                    ],
+                  ),
                 ),
               ),
-              Container(
-                height: 132,
-                width: 343,
-                margin: EdgeInsets.fromLTRB(15, 15, 15, 15),
-                padding: EdgeInsets.fromLTRB(20, 20, 15, 15),
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(20),
-                  color: Color.fromARGB(255, 247, 248, 248),
-                ),
-                child: Column(
-                  children: [
-                    ListTile(
-                      title: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+                child: Container(
+                  margin: EdgeInsets.only(top: 16),
+                  height: 132,
+                  width: 343,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(20),
+                    color: const Color.fromARGB(255, 247, 248, 248),
+                  ),
+                  child: Column(
+                    children: [
+                      Row(
                         children: [
-                          Container(
-                            margin: EdgeInsets.fromLTRB(0, 0, 0, 5),
-                            child: Text(
-                              'AB workout',
-                              overflow: TextOverflow.ellipsis,
-                              style: TextStyle(fontSize: 14),
+                          Expanded(
+                            flex: 3,
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Container(
+                                  margin: const EdgeInsets.fromLTRB(0, 0, 0, 4),
+                                  child: const Text(
+                                    'AB Workout',
+                                    overflow: TextOverflow.ellipsis,
+                                    style: const TextStyle(
+                                        fontSize: 14,
+                                        fontWeight: FontWeight.bold),
+                                  ),
+                                ),
+                                const Text(
+                                  '11 Excresise | 32 minutes',
+                                  overflow: TextOverflow.ellipsis,
+                                  style: TextStyle(
+                                    fontSize: 10,
+                                  ),
+                                ),
+                                Container(
+                                  margin:
+                                      const EdgeInsets.fromLTRB(0, 15, 0, 0),
+                                  child: Align(
+                                    alignment: Alignment.bottomLeft,
+                                    child: ElevatedButton(
+                                      onPressed: () {},
+                                      style: ElevatedButton.styleFrom(
+                                        primary: const Color.fromRGBO(
+                                            0, 221, 163, 1),
+                                      ),
+                                      child: const Text(
+                                        'view more',
+                                        overflow: TextOverflow.ellipsis,
+                                        style: TextStyle(
+                                          fontSize: 12,
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ],
                             ),
                           ),
-                          Container(
-                            margin: EdgeInsets.fromLTRB(0, 0, 0, 8),
-                            child: Text(
-                              '14 Excresise | 20 minutes',
-                              overflow: TextOverflow.ellipsis,
-                              style: TextStyle(
-                                fontSize: 10,
+                          Expanded(
+                            flex: 1,
+                            child: SizedBox(
+                              height: 132,
+                              child: Image.network(
+                                'https://media.istockphoto.com/vectors/man-doing-sit-ups-exercise-abdominals-exercise-flat-vector-isolated-vector-id1407639801?k=20&m=1407639801&s=612x612&w=0&h=ag8JoxjqFWBl7F_crpR-WWLm3dup7tM7AZd9PNp9kGU=',
+                                fit: BoxFit.contain,
                               ),
                             ),
                           ),
                         ],
-                      ),
-                      subtitle: Align(
-                        alignment: Alignment.bottomLeft,
-                        child: ElevatedButton(
-                          onPressed: () {},
-                          style: ElevatedButton.styleFrom(
-                            backgroundColor: Color.fromRGBO(0, 221, 163, 1),
-                          ),
-                          child: Text(
-                            'view more',
-                            overflow: TextOverflow.ellipsis,
-                            style: TextStyle(
-                              fontSize: 12,
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
-                  ],
+                      )
+                    ],
+                  ),
                 ),
               ),
             ],
@@ -558,5 +620,3 @@ class _SwitchExampleState extends State<SwitchExample> {
     );
   }
 }
-
-
