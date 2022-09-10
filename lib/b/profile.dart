@@ -15,14 +15,14 @@ class Profile extends StatelessWidget {
             fit: BoxFit.scaleDown,
             child: CircleAvatar(
               backgroundImage: NetworkImage(
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm81XoZa9dFFAFPY-LjxgJ-XAj-KeySicSvw&usqp=CAU"),
+                  "https://i.kym-cdn.com/entries/icons/original/000/027/475/Screen_Shot_2018-10-25_at_11.02.15_AM.png"),
             ),
           ),
           title: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: const [
               Text(
-                'Akuh Anak SGM',
+                'Username',
                 overflow: TextOverflow.ellipsis,
                 style: TextStyle(
                   fontSize: 14,
@@ -31,7 +31,7 @@ class Profile extends StatelessWidget {
                 ),
               ),
               Text(
-                'akuhanaksgm@gmail.com',
+                'User@gmail.com',
                 overflow: TextOverflow.ellipsis,
                 style: TextStyle(
                   color: Colors.black,
