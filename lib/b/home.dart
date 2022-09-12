@@ -343,21 +343,22 @@ class home extends StatelessWidget {
                 ),
               ),
               Container(
-                margin: EdgeInsets.fromLTRB(16, 22, 16, 15),
-                child: Text(
+                margin: const EdgeInsets.fromLTRB(16, 22, 16, 15),
+                child: const Text(
                   'Recomended for',
                   overflow: TextOverflow.ellipsis,
-                  style: TextStyle(
-                    color: Color.fromARGB(255, 4, 0, 79),
+                  style: const TextStyle(
+                    color: const Color.fromARGB(255, 4, 0, 79),
                     fontWeight: FontWeight.bold,
                     fontSize: 17,
                   ),
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16),
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                 child: Container(
-                  margin: EdgeInsets.only(top: 16),
+                  padding: EdgeInsets.only(right: 16),
                   height: 132,
                   width: 343,
                   decoration: BoxDecoration(
@@ -375,25 +376,29 @@ class home extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Container(
-                                  margin: const EdgeInsets.fromLTRB(0, 0, 0, 4),
+                                  margin:
+                                      const EdgeInsets.fromLTRB(15, 0, 0, 4),
                                   child: const Text(
-                                    'Fullbody Workout',
+                                    'Recomended for',
                                     overflow: TextOverflow.ellipsis,
                                     style: const TextStyle(
                                         fontSize: 14,
                                         fontWeight: FontWeight.bold),
                                   ),
                                 ),
-                                const Text(
-                                  '11 Excresise | 32 minutes',
-                                  overflow: TextOverflow.ellipsis,
-                                  style: TextStyle(
-                                    fontSize: 10,
+                                Container(
+                                  margin: EdgeInsets.fromLTRB(15, 0, 0, 0),
+                                  child: const Text(
+                                    '11 Excresise | 32 minutes',
+                                    overflow: TextOverflow.ellipsis,
+                                    style: TextStyle(
+                                      fontSize: 10,
+                                    ),
                                   ),
                                 ),
                                 Container(
                                   margin:
-                                      const EdgeInsets.fromLTRB(0, 15, 0, 0),
+                                      const EdgeInsets.fromLTRB(15, 15, 0, 0),
                                   child: Align(
                                     alignment: Alignment.bottomLeft,
                                     child: ElevatedButton(
@@ -432,9 +437,10 @@ class home extends StatelessWidget {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16),
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                 child: Container(
-                  margin: EdgeInsets.only(top: 16),
+                  padding: EdgeInsets.only(right: 16),
                   height: 132,
                   width: 343,
                   decoration: BoxDecoration(
@@ -452,7 +458,8 @@ class home extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Container(
-                                  margin: const EdgeInsets.fromLTRB(0, 0, 0, 4),
+                                  margin:
+                                      const EdgeInsets.fromLTRB(15, 0, 0, 4),
                                   child: const Text(
                                     'Lowerbody Workout',
                                     overflow: TextOverflow.ellipsis,
@@ -461,16 +468,19 @@ class home extends StatelessWidget {
                                         fontWeight: FontWeight.bold),
                                   ),
                                 ),
-                                const Text(
-                                  '12 Excresise | 40 minutes',
-                                  overflow: TextOverflow.ellipsis,
-                                  style: TextStyle(
-                                    fontSize: 10,
+                                Container(
+                                  margin: EdgeInsets.fromLTRB(15, 0, 0, 0),
+                                  child: const Text(
+                                    '12 Excresise | 40 minutes',
+                                    overflow: TextOverflow.ellipsis,
+                                    style: TextStyle(
+                                      fontSize: 10,
+                                    ),
                                   ),
                                 ),
                                 Container(
                                   margin:
-                                      const EdgeInsets.fromLTRB(0, 15, 0, 0),
+                                      const EdgeInsets.fromLTRB(15, 15, 0, 0),
                                   child: Align(
                                     alignment: Alignment.bottomLeft,
                                     child: ElevatedButton(
@@ -509,9 +519,10 @@ class home extends StatelessWidget {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16),
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                 child: Container(
-                  margin: EdgeInsets.only(top: 16),
+                  padding: EdgeInsets.only(right: 16),
                   height: 132,
                   width: 343,
                   decoration: BoxDecoration(
@@ -529,7 +540,8 @@ class home extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Container(
-                                  margin: const EdgeInsets.fromLTRB(0, 0, 0, 4),
+                                  margin:
+                                      const EdgeInsets.fromLTRB(15, 0, 0, 4),
                                   child: const Text(
                                     'AB Workout',
                                     overflow: TextOverflow.ellipsis,
@@ -538,16 +550,20 @@ class home extends StatelessWidget {
                                         fontWeight: FontWeight.bold),
                                   ),
                                 ),
-                                const Text(
-                                  '11 Excresise | 32 minutes',
-                                  overflow: TextOverflow.ellipsis,
-                                  style: TextStyle(
-                                    fontSize: 10,
+                                Container(
+                                  margin:
+                                      const EdgeInsets.fromLTRB(15, 0, 0, 0),
+                                  child: const Text(
+                                    '14 Excresise | 20 minutes',
+                                    overflow: TextOverflow.ellipsis,
+                                    style: TextStyle(
+                                      fontSize: 10,
+                                    ),
                                   ),
                                 ),
                                 Container(
                                   margin:
-                                      const EdgeInsets.fromLTRB(0, 15, 0, 0),
+                                      const EdgeInsets.fromLTRB(15, 15, 0, 0),
                                   child: Align(
                                     alignment: Alignment.bottomLeft,
                                     child: ElevatedButton(
