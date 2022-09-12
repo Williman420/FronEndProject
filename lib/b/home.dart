@@ -379,7 +379,7 @@ class home extends StatelessWidget {
                                   margin:
                                       const EdgeInsets.fromLTRB(15, 0, 0, 4),
                                   child: const Text(
-                                    'Recomended for',
+                                    'Fullbody workout',
                                     overflow: TextOverflow.ellipsis,
                                     style: const TextStyle(
                                         fontSize: 14,
